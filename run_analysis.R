@@ -31,7 +31,7 @@ run_analysis=function(yourfolderpath){
   x_train1=read.table(paste(yourfolderpath,"/UCI HAR Dataset/train/x_train.txt",sep=""),sep="",header=FALSE);
   x_test1=read.table(paste(yourfolderpath,"/UCI HAR Dataset/test/x_test.txt",sep=""),sep="",header=FALSE);
   y_train=read.table(paste(yourfolderpath,"/UCI HAR Dataset/train/y_train.txt",sep=""),sep="",header=FALSE);
-  x_test1=read.table(paste(yourfolderpath,"/UCI HAR Dataset/test/y_test.txt",sep=""),sep="",header=FALSE);
+  y_test=read.table(paste(yourfolderpath,"/UCI HAR Dataset/test/y_test.txt",sep=""),sep="",header=FALSE);
   sub_train=read.table(paste(yourfolderpath,"/UCI HAR Dataset/train/subject_train.txt",sep=""),sep="",header=FALSE)
   sub_test=read.table(paste(yourfolderpath,"/UCI HAR Dataset/test/subject_test.txt",sep=""),sep="",header=FALSE)
   feature=read.table(paste(yourfolderpath,"/UCI HAR Dataset/features.txt",sep=""),sep="",header=FALSE)
