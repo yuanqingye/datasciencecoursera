@@ -1,0 +1,16 @@
+1First you need to get the data online
+then you read the data into R work space(x_train.txt...)
+merge training and test data together.
+name the data table's column by feature.txt
+
+2extract the info needed
+There are 66 columns involving basic mean and standard deviation,just extract them into 66 column's table.
+
+3compare activity with the number of y, and replace y's number with activity.
+Attach the activity to main table
+Attach subject to the main table
+
+4using better description for different columns
+
+5Using split and lapply or tapply to get the average data according to subject & activity, should be 180 rows ,66 columns finally
+
